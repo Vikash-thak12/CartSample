@@ -13,9 +13,15 @@ const Homepage = () => {
     <div className='grid grid-cols-1 md:grid-cols-2'>
       <div>
         <div className='flex items-center justify-center md:py-10 md:px-5 relative'>
-          <Image src={"/assets/main.png"} alt='Main Image' height={300} width={400} />
+          <div className='md:hidden'>
+            <Image src={"/assets/main.png"} alt='Main Image' height={300} width={400} />
+          </div>
 
-          <div className='flex absolute bg-white px-4 py-2 rounded-full items-center gap-5 bottom-8 left-[1rem]'>
+          <div className='hidden md:block'>
+            <Image src={"/assets/main.png"} alt='Main Image' height={300} width={500} />
+          </div>
+
+          <div className='flex absolute bg-white px-4 py-2 rounded-full items-center gap-5 bottom-8 left-[1rem] md:bottom-16 md:left-[10rem]'>
             <div className='flex gap-1'>
               <p>3.9</p>
               <Image src={"/assets/star1.png"} alt='Main Image' height={16} width={16} className='size-5' />
@@ -26,18 +32,15 @@ const Homepage = () => {
       </div>
 
       <div className='p-4'>
-      <Separator className='bg-gray-400 mt-10 mx-auto block md:hidden' />
+        <Separator className='bg-gray-400 mt-10 mx-auto block md:hidden' />
         <div className='mt-5'>
           <DetailedCard />
         </div>
-
-        <Separator className='bg-gray-400 my-5' />
 
         <Rating />
         <Review />
         <Separator className='bg-gray-400  my-5' />
         <CustomerReview />
-        <Separator className='bg-gray-400  my-5' />
         <MightAlsoLike />
         <Separator className='bg-gray-400  my-5' />
         <Bottom />

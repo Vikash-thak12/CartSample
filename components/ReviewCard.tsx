@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { AiOutlineMore } from "react-icons/ai";
-import { itemsRecommend } from './MightAlsoLike';
 import Star from './Star';
+import { itemsRecommend } from '@/constants';
 
 interface CardPros {
     title: string, 

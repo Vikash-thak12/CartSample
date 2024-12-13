@@ -24,7 +24,6 @@ const CustomerReview = () => {
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis  tempor incididun... See more"
                 name="Mary Magdalen,"
             />
-            <Separator className='mt-5' />
         </main>
     )
 }

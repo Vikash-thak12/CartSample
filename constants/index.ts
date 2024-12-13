@@ -43,3 +43,68 @@ export const imagesItem = [
         url: "/assets/star5.png"
     },
 ]
+
+
+export const itemsRecommend = [
+    {
+      id: 1,
+      url: "/assets/rect1.png",
+      name: "rose Corset",
+      price: 1190,
+    },
+    {
+      id: 2,
+      url: "/assets/rect2.png",
+      name: "rose Corset",
+      price: 1190,
+    },
+    {
+      id: 3,
+      url: "/assets/rect3.png",
+      name: "rose Corset",
+      price: 1190,
+    },
+    {
+      id: 4,
+      url: "/assets/rect.png",
+      name: "rose Corset",
+      price: 1190,
+    },
+    {
+      id: 5,
+      url: "/assets/rect1.png",
+      name: "rose Corset",
+      price: 1190,
+    },
+    {
+      id: 6,
+      url: "/assets/rect3.png",
+      name: "rose Corset",
+      price: 1190,
+    },
+    {
+      id: 7,
+      url: "/assets/rect2.png",
+      name: "rose Corset",
+      price: 1190,
+    },
+    {
+      id: 8,
+      url: "/assets/rect.png",
+      name: "rose Corset",
+      price: 1190,
+    },
+    {
+      id: 9,
+      url: "/assets/rect1.png",
+      name: "rose Corset",
+      price: 1190,
+    },
+    {
+      id: 10,
+      url: "/assets/rect2.png",
+      name: "rose Corset",
+      price: 1190,
+    },
+  ];
+  

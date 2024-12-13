@@ -14,8 +14,8 @@ const DetailedCard = () => {
                 <h1 className='font-bold text-2xl'>Printed Slip Dress</h1>
                 <div className='flex items-center gap-3 py-2'>
                     <span className='font-bold'>$1435</span>
-                    <span className='text-gray-500'>$2300 </span>
-                    <span className='bg-pink-500 px-2 py-1 text-white'>-40%</span>
+                    <span className='text-gray-500 line-through'>$2300 </span>
+                    <span className='bg-pink-500 px-2 py-1 text-white'>- 40%</span>
                 </div>
                 <p className='text-[#9C9C9C] py-2'>Inclusive of all taxes</p>
                 <p className='text-[#535766] text-lg'>Short slip dress made of satin, featuring a flared A-line silhouette with a printed design detail. Sleeveless with spaghetti straps for a feminine look.</p>
