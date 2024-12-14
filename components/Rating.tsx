@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 import CircleRating from './CircleRating'
 import { Separator } from './ui/separator'
