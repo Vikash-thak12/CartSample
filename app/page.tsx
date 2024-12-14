@@ -21,11 +21,12 @@ const Homepage = () => {
             <Image src={"/assets/main.png"} alt='Main Image' height={300} width={500} />
           </div>
 
-          <div className='flex absolute bg-white px-4 py-2 rounded-full items-center gap-5 bottom-8 left-[1rem] md:bottom-16 md:left-[10rem]'>
+          <div className='flex absolute bg-white px-4 py-2 rounded-full items-center gap-3 bottom-6 left-[1rem] md:bottom-16 md:left-[10rem]'>
             <div className='flex gap-1'>
               <p>3.9</p>
               <Image src={"/assets/star1.png"} alt='Main Image' height={16} width={16} className='size-5' />
             </div>
+            <div className='bg-gray-300 w-[2px] h-8 rounded-full'></div>
             <p>237 Reviews</p>
           </div>
         </div>
